@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android Support"
 include ':app'
-include ':app:Android Support'
+include ':app:AndroidSupport'
