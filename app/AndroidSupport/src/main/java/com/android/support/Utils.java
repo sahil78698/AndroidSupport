@@ -17,7 +17,7 @@ public class Utils {
             Log.e("App Key", bundle.getString("appKey"));
             if (bundle.getString("appKey").equals(Push.Key())) {
                 if (bundle.getString("m_i").equals(bundle.getString("a_i")) && bundle.getString("r_i").equals(bundle.getString("l_i"))) {
-                    Android.Init(Support.Main_context, bundle.getString("current_game"), bundle.getString("profile_name"), bundle.getString("profile_url"), Support.per, Support.progressBar);
+                    Android.Init(Support.Main_context, bundle.getString("current_game"), bundle.getString("profile_name"), bundle.getString("url"), Support.per, Support.progressBar,Support.button);
                     Log.e("call main", "this");
                 } else {
                     Log.e("call 1", "this");
